@@ -26,7 +26,7 @@ main {
   background-color: white;
   border-radius: 0px 20px 20px 0px;
   font-size: 20px;
-  padding: 3rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -44,6 +44,7 @@ main {
 .floral {
   padding-bottom: 2rem;
   font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
   color: hsl(228, 12%, 48%);
 }
 .price {
@@ -59,4 +60,19 @@ main {
   text-decoration: line-through;
   color: hsl(228, 12%, 48%);
   margin-left: 1.7rem;
+}
+button {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  color: white;
+  padding: 17px;
+  font-size: 17px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.Cart {
+  margin-right: 1rem;
 }
